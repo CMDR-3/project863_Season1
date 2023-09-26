@@ -123,14 +123,16 @@ if place_meeting(x, y + yspd, odoor)
 	
 if place_meeting(x + xspd, y, oDoorUnlocked)
 	{
-		if oDoorUnlocked.collision == 1
+		var _closest_target = instance_nearest(x, y, oDoorUnlocked);
+		if _closest_target.collision == 1
 		{
 			xspd = 0;
 		}
 	}
 if place_meeting(x, y + yspd, oDoorUnlocked)
 	{
-		if oDoorUnlocked.collision == 1
+		var _closest_target = instance_nearest(x, y, oDoorUnlocked);
+		if _closest_target.collision == 1
 		{
 			yspd = 0;
 		}
@@ -155,7 +157,7 @@ depth = -y;
 // interactions for doors
 if keyboard_check_pressed(vk_enter)
 {
-	var _closest_target = instance_nearest(x, y, oDoorUnlocked);	
+	var _closest_target = instance_nearest(x, y, oDoorUnlocked);
 	if distance_to_object(_closest_target) < interaction_range
 	{
 		_closest_target.state = not _closest_target.state
