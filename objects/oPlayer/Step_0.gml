@@ -102,8 +102,21 @@ if place_meeting(x, y + yspd, oWall)
 	{
 	yspd = 0;	
 	}
-
-
+	
+if place_meeting(x + xspd, y, odoor)
+	{
+		if odoor.collision == 1
+		{
+			xspd = 0;
+		}
+	}
+if place_meeting(x, y + yspd, odoor)
+	{
+		if odoor.collision == 1
+		{
+			yspd = 0;
+		}
+	}
 
 //move player
 x += xspd;
