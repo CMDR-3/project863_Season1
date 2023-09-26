@@ -75,6 +75,7 @@
     {"id":{"name":"font_title","path":"fonts/font_title/font_title.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"_1image","path":"sprites/_1image/_1image.yy",},},
+    {"id":{"name":"oDoorUnlocked","path":"objects/oDoorUnlocked/oDoorUnlocked.yy",},},
     {"id":{"name":"oWoods","path":"objects/oWoods/oWoods.yy",},},
     {"id":{"name":"rBG1","path":"rooms/rBG1/rBG1.yy",},},
     {"id":{"name":"font_subtitle","path":"fonts/font_subtitle/font_subtitle.yy",},},
