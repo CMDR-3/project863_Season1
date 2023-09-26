@@ -48,6 +48,7 @@
     {"name":"font_title","order":1,"path":"fonts/font_title/font_title.yy",},
     {"name":"obj_door","order":1,"path":"objects/obj_door/obj_door.yy",},
     {"name":"_1image","order":12,"path":"sprites/_1image/_1image.yy",},
+    {"name":"oDoorUnlocked","order":16,"path":"objects/oDoorUnlocked/oDoorUnlocked.yy",},
     {"name":"oWoods","order":3,"path":"objects/oWoods/oWoods.yy",},
     {"name":"sTiles_Props","order":2,"path":"sprites/sTiles_Props/sTiles_Props.yy",},
     {"name":"oSpeakBlock19","order":12,"path":"objects/oSpeakBlock19/oSpeakBlock19.yy",},
